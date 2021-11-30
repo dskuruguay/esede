@@ -82,6 +82,7 @@ background-color:rgba(197, 194, 194, 0.747);
   color: black;
   text-shadow: 6px 6px 6px white;
   font-weight: bolder;
+  font-size: 22px;
   margin-bottom: 25px;
 }
 
@@ -128,6 +129,9 @@ background-color:rgba(197, 194, 194, 0.747);
   #banner .container button{
    margin-top: 8px;
   }
+  #banner .container{
+    width:50%;
+   }
 }
 
 
