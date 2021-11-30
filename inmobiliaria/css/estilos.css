@@ -52,7 +52,7 @@
  
 /*-------------------------------Estilos de las Secciones----------------------------*/
 section {
-  margin-bottom: 0px;
+  margin-bottom: 25px;
 }
 
 #banner {
@@ -108,18 +108,29 @@ background-color:rgba(197, 194, 194, 0.747);
 
  #columnas{
    background-color: black;
-   margin: 5px;
    width: 99%;
- }
+   margin-left: 5px;
+  }
  #columnas h2{
   text-align: center;
   color:white;
   
  }
- #columnas .col-sm-4{
+ #columnas .col-sm-3{
    color: white;
    text-align: center;
+   
+  
  }
+ #columnas .col-sm-3 button{
+   color: black;
+   border-radius: 10px;
+ }
+
+ #columnas .col-sm-3 button:hover {
+  background:red;
+  color: white;
+ }	
 /*-------------------------------Estilos Responsive----------------------------*/
 
 @media (max-width:850px){
