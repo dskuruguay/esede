@@ -84,6 +84,7 @@ background-color:rgba(197, 194, 194, 0.747);
   font-weight: bolder;
   font-size: 22px;
   margin-bottom: 25px;
+  border: px, ;
 }
 
 #banner .container button{
@@ -108,20 +109,19 @@ background-color:rgba(197, 194, 194, 0.747);
 
  #columnas{
    background-color: black;
-   width: 99%;
+   width: 98.7%;
    margin-left: 5px;
   }
  #columnas h2{
   text-align: center;
   color:white;
-  
- }
+}
  #columnas .col-sm-3{
    color: white;
    text-align: center;
-   
-  
- }
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
  #columnas .col-sm-3 button{
    color: black;
    border-radius: 10px;
